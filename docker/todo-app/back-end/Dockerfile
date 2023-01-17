@@ -3,5 +3,5 @@ WORKDIR /back-end
 EXPOSE 3001
 ADD ./node_modules.tar.gz /back-end/
 COPY . .
-ENTRYPOINT [ "npm start" ]
+ENTRYPOINT [ "npm", "start" ]
 
